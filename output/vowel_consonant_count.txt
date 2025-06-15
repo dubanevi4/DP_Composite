@@ -1,0 +1,27 @@
+Sentence: This is the first paragraph.
+Vowels: 7, Consonants: 16
+
+Sentence: It has two sentences!
+Vowels: 6, Consonants: 11
+
+Sentence: This is a test paragraph.
+Vowels: 7, Consonants: 13
+
+Sentence: Here is the second paragraph.
+Vowels: 9, Consonants: 15
+
+Sentence: It contains three sentences.
+Vowels: 9, Consonants: 15
+
+Sentence: This is another test paragraph.
+Vowels: 9, Consonants: 17
+
+Sentence: The last sentence has more words than the others.
+Vowels: 13, Consonants: 27
+
+Sentence: This is the third paragraph.
+Vowels: 7, Consonants: 16
+
+Sentence: It has only one sentence with many words to test the longest word functionality.
+Vowels: 25, Consonants: 41
+

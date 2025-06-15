@@ -1,0 +1,11 @@
+Duplicate words count:
+paragraph: 5
+sentences: 2
+has: 3
+sentence: 2
+test: 3
+words: 2
+this: 4
+is: 5
+it: 3
+the: 6
