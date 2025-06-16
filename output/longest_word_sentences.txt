@@ -1,1 +1,1 @@
-It has only one sentence with many words to test the longest word functionality.	
+It has the longestlongestlongest word.

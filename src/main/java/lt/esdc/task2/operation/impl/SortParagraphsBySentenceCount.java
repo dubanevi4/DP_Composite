@@ -13,11 +13,8 @@ public class SortParagraphsBySentenceCount implements TextOperation {
     public TextComponent execute(TextComponent text) {
         Text result = new Text();
         List<TextComponent> paragraphs = text.getComponents();
-        
-        // Sort paragraphs by sentence count
         paragraphs.sort(Comparator.comparingInt(p -> p.getComponents().size()));
         
-        // Create new paragraph components to maintain proper structure
         for (TextComponent paragraph : paragraphs) {
             Paragraph newParagraph = new Paragraph();
             // Copy all sentences from the original paragraph

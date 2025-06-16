@@ -20,9 +20,12 @@ class TextOperationsTest {
     }
 
     private TextComponent createTestText() {
-        String testText = "    First paragraph. It has two sentences! This is a test.\n" +
-                         "    Second paragraph. It also has two sentences. This is another test.\n" +
-                         "    Third paragraph. It has three sentences! This is the longest word in text. This is a test.";
+        String testText = new StringBuilder("This is the first paragraph. It has two sentences! " +
+                "This is a test paragraph.\n" +
+                "Here is the second paragraph. " +
+                "It contains three sentences. This is another test paragraph. " +
+                "The last sentence has more words than the others.\n" +
+                "This is the third paragraph. It has the longestlongestlongest word.").toString();
         return parser.parse(testText);
     }
 
@@ -37,8 +40,8 @@ class TextOperationsTest {
         // then
         assertThat(result.getComponents()).hasSize(3);
         assertThat(result.getChild(0).getComponents()).hasSize(2); // Second paragraph
-        assertThat(result.getChild(1).getComponents()).hasSize(2); // First paragraph
-        assertThat(result.getChild(2).getComponents()).hasSize(3); // Third paragraph
+        assertThat(result.getChild(1).getComponents()).hasSize(3); // First paragraph
+        assertThat(result.getChild(2).getComponents()).hasSize(4); // Third paragraph
     }
 
     @Test
@@ -50,22 +53,20 @@ class TextOperationsTest {
         TextComponent result = operation.execute(text);
 
         // then
-        assertThat(result.toString()).contains("longest word");
+        assertThat(result.toString()).contains("longestlongestlongest word");
         assertThat(result.getComponents()).hasSize(1);
     }
 
     @Test
     void shouldRemoveShortSentences() {
         // given
-        TextOperation operation = new RemoveShortSentences(4);
+        TextOperation operation = new RemoveShortSentences(9);
 
         // when
         TextComponent result = operation.execute(text);
 
         // then
-        assertThat(result.toString()).doesNotContain("First paragraph");
-        assertThat(result.toString()).doesNotContain("Second paragraph");
-        assertThat(result.toString()).contains("This is the longest word in text");
+        assertThat(result.toString()).contains("The last sentence has more words than the others.");
     }
 
     @Test
@@ -78,9 +79,9 @@ class TextOperationsTest {
 
         // then
         String resultStr = result.toString();
-        assertThat(resultStr).contains("test: 3");
+        assertThat(resultStr).contains("test: 2");
         assertThat(resultStr).contains("this: 4");
-        assertThat(resultStr).contains("is: 4");
+        assertThat(resultStr).contains("is: 5");
     }
 
     @Test
@@ -93,10 +94,11 @@ class TextOperationsTest {
 
         // then
         String resultStr = result.toString();
-        assertThat(resultStr).contains("Vowels:");
-        assertThat(resultStr).contains("Consonants:");
-        assertThat(resultStr).contains("First paragraph");
-        assertThat(resultStr).contains("Second paragraph");
-        assertThat(resultStr).contains("Third paragraph");
+        assertThat(resultStr).contains("Sentence: This is the first paragraph.\n" +
+                "Vowels: 7, Consonants: 16");
+        assertThat(resultStr).contains("Sentence: Here is the second paragraph.\n" +
+                "Vowels: 9, Consonants: 15");
+        assertThat(resultStr).contains("Sentence: The last sentence has more words than the others.\n" +
+                "Vowels: 13, Consonants: 27");
     }
 } 

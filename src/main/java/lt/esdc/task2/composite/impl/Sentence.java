@@ -1,6 +1,7 @@
 package lt.esdc.task2.composite.impl;
 
 import lt.esdc.task2.composite.TextComponent;
+import lt.esdc.task2.composite.TextComposite;
 
 public class Sentence extends TextComposite {
     public Sentence() {

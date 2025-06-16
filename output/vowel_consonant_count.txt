@@ -1,8 +1,8 @@
 Sentence: This is the third paragraph.
 Vowels: 7, Consonants: 16
 
-Sentence: It has only one sentence with many words to test the longest word functionality.
-Vowels: 25, Consonants: 41
+Sentence: It has the longestlongestlongest word.
+Vowels: 10, Consonants: 23
 
 Sentence: This is the first paragraph.
 Vowels: 7, Consonants: 16

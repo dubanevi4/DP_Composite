@@ -24,28 +24,22 @@ public class Main {
     public static void main(String[] args) {
         try {
             Logger.info("Starting text processing application");
-            
-            // Create output directory if it doesn't exist
+
             createOutputDirectory();
-            
-            // Read text from file
+
             String inputText = readTextFromFile(INPUT_FILE);
             Logger.info("Successfully read input text from file");
-            
-            // Parse text into composite structure
+
             AbstractParser parser = ParserChainBuilder.buildParserChain();
             TextComponent text = parser.parse(inputText);
             Logger.info("Successfully parsed text into composite structure");
-            
-            // Recover text from composite structure
+
             String recoveredText = text.toString();
             Logger.info("Successfully recovered text from composite structure");
-            
-            // Write recovered text to file
+
             writeTextToFile(OUTPUT_DIR + "/recovered.txt", recoveredText);
             Logger.info("Successfully wrote recovered text to file");
-            
-            // Perform text operations
+
             performTextOperations(text);
             
             Logger.info("Text processing completed successfully");
@@ -84,31 +78,31 @@ public class Main {
     private static void performTextOperations(TextComponent text) throws IOException {
         Logger.info("Starting text operations");
         
-        // Sort paragraphs by sentence count
+        /* Sort paragraphs by sentence count */
         TextOperation sortOperation = new SortParagraphsBySentenceCount();
         TextComponent sortedText = sortOperation.execute(text);
         writeTextToFile(OUTPUT_DIR + "/sorted_paragraphs.txt", sortedText.toString());
         Logger.info("Completed sorting paragraphs by sentence count");
         
-        // Find sentences with longest word
+        /* Find sentences with longest word */
         TextOperation longestWordOperation = new FindSentencesWithLongestWord();
         TextComponent longestWordText = longestWordOperation.execute(text);
         writeTextToFile(OUTPUT_DIR + "/longest_word_sentences.txt", longestWordText.toString());
         Logger.info("Completed finding sentences with longest word");
         
-        // Remove short sentences
-        TextOperation removeShortOperation = new RemoveShortSentences(3);
+        /* Remove short sentences */
+        TextOperation removeShortOperation = new RemoveShortSentences(9);
         TextComponent shortRemovedText = removeShortOperation.execute(text);
         writeTextToFile(OUTPUT_DIR + "/short_removed.txt", shortRemovedText.toString());
         Logger.info("Completed removing short sentences");
         
-        // Count duplicate words
+        /* Count duplicate words */
         TextOperation duplicateOperation = new CountDuplicateWords();
         TextComponent duplicateCount = duplicateOperation.execute(text);
         writeTextToFile(OUTPUT_DIR + "/duplicate_words.txt", duplicateCount.toString());
         Logger.info("Completed counting duplicate words");
         
-        // Count vowels and consonants
+        /* Count vowels and consonants */
         TextOperation vowelConsonantOperation = new CountVowelsAndConsonants();
         TextComponent vowelConsonantCount = vowelConsonantOperation.execute(text);
         writeTextToFile(OUTPUT_DIR + "/vowel_consonant_count.txt", vowelConsonantCount.toString());
