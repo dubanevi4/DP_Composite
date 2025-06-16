@@ -15,6 +15,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 
 public class Main {
     private static final String INPUT_FILE = "src/main/resources/input.txt";
@@ -76,7 +77,7 @@ public class Main {
     private static void writeTextToFile(String filename, String content) throws IOException {
         Logger.info("Writing text to file: " + filename);
         Path path = Paths.get(filename);
-        Files.writeString(path, content);
+        Files.writeString(path, content, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
         Logger.debug("Wrote " + content.length() + " characters to file");
     }
     

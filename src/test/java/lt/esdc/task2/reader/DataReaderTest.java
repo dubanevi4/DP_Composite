@@ -24,6 +24,6 @@ class DataReaderTest {
         // when/then
         assertThatThrownBy(() -> reader.readText("nonexistent.txt"))
                 .isInstanceOf(ProjectException.class)
-                .hasMessageContaining("Problem with the path to file");
+                .hasMessageContaining("Resource not found: ");
     }
 } 

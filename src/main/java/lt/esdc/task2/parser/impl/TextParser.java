@@ -11,10 +11,11 @@ public class TextParser extends AbstractParser {
     public TextComponent parse(String text) {
         Text textComponent = new Text();
         
-        // Split into paragraphs
+        // Split into paragraphs and preserve empty lines
         String[] paragraphs = text.split(PARAGRAPH_DELIMITER);
         for (String paragraphText : paragraphs) {
-            if (!paragraphText.trim().isEmpty()) {
+            paragraphText = paragraphText.trim();
+            if (!paragraphText.isEmpty()) {
                 TextComponent paragraph = parseNext(paragraphText);
                 if (paragraph != null) {
                     textComponent.add(paragraph);

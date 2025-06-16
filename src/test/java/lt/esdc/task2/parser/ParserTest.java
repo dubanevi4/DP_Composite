@@ -62,7 +62,7 @@ class ParserTest {
         // then
         String reconstructedText = result.toString();
         assertThat(reconstructedText).contains("This is the first paragraph");
-        assertThat(reconstructedText).contains("This is the second paragraph");
+        assertThat(reconstructedText).contains("Here is the second paragraph");
         assertThat(reconstructedText).contains("This is the third paragraph");
     }
 

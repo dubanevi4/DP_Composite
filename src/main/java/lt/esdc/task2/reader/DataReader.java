@@ -2,31 +2,22 @@ package lt.esdc.task2.reader;
 
 import lt.esdc.task2.exception.ProjectException;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.util.stream.Collectors;
 
 public class DataReader {
     public String readText(String filename) throws ProjectException {
-        File file;
-        try {
-            file = new File(getClass().getClassLoader().getResource(filename).getFile());
-            return readTextFromFile(file);
-        } catch (NullPointerException e) {
-            throw new ProjectException("Problem with the path to file: " + filename, e);
-        }
-    }
+        try (InputStream is = getClass().getClassLoader().getResourceAsStream(filename)) {
+            if (is == null) {
+                throw new ProjectException("Resource not found: " + filename);
+            }
 
-    private String readTextFromFile(File path) throws ProjectException {
-        StringBuilder sb = new StringBuilder();
-        try (BufferedReader br = new BufferedReader(new FileReader(path))) {
-            br.lines()
-              .filter(line -> !line.isEmpty())
-              .forEachOrdered(s -> sb.append(s).append("\n"));
-            return sb.toString().strip();
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
+                return br.lines()
+                        .collect(Collectors.joining("\n"));
+            }
         } catch (IOException e) {
-            throw new ProjectException("Error reading file: " + path.getName(), e);
+            throw new ProjectException("Error reading resource: " + filename, e);
         }
     }
 }

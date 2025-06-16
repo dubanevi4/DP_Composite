@@ -8,7 +8,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ParagraphParser extends AbstractParser {
-    private static final String SENTENCE_DELIMITER = "[.!?]+\\s*";
+    private static final String SENTENCE_DELIMITER = "([.!?])\\s*";
 
     @Override
     public TextComponent parse(String text) {

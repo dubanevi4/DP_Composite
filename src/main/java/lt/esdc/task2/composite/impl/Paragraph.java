@@ -12,10 +12,16 @@ public class Paragraph extends TextComposite {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < components.size(); i++) {
             TextComponent component = components.get(i);
-            result.append(component.toString());
+            String componentText = component.toString();
+            result.append(componentText);
             // Add sentence delimiter after each sentence except the last one
             if (i < components.size() - 1) {
-                result.append(TextConstants.SENTENCE_DELIMITER);
+                // Only add the space part of the delimiter if the sentence doesn't end with punctuation
+                if (!componentText.matches(".*[.!?]\\s*$")) {
+                    result.append(Text.Delimiter.SENTENCE.getValue());
+                } else {
+                    result.append(" ");
+                }
             }
         }
         return result.toString();

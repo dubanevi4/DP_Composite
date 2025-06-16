@@ -17,7 +17,7 @@ public class Sentence extends TextComposite {
             if (i < components.size() - 1) {
                 TextComponent nextComponent = components.get(i + 1);
                 if (nextComponent instanceof Lexeme) {
-                    result.append(TextConstants.WORD_DELIMITER);
+                    result.append(Text.Delimiter.WORD.getValue());
                 }
             }
         }

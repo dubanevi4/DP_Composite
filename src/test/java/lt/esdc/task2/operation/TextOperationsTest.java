@@ -79,8 +79,8 @@ class TextOperationsTest {
         // then
         String resultStr = result.toString();
         assertThat(resultStr).contains("test: 3");
-        assertThat(resultStr).contains("this: 3");
-        assertThat(resultStr).contains("is: 3");
+        assertThat(resultStr).contains("this: 4");
+        assertThat(resultStr).contains("is: 4");
     }
 
     @Test

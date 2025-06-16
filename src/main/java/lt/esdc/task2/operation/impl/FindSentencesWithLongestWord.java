@@ -1,6 +1,7 @@
 package lt.esdc.task2.operation.impl;
 
 import lt.esdc.task2.composite.TextComponent;
+import lt.esdc.task2.composite.impl.Paragraph;
 import lt.esdc.task2.composite.impl.Text;
 import lt.esdc.task2.operation.TextOperation;
 
@@ -15,37 +16,39 @@ public class FindSentencesWithLongestWord implements TextOperation {
         }
 
         Text result = new Text();
-        int maxWordLength = findMaxWordLength(text);
+        String longestWord = findLongestWord(text);
         
         for (TextComponent paragraph : text.getComponents()) {
+            Paragraph newParagraph = new Paragraph();
+            boolean hasLongestWord = false;
+            
             for (TextComponent sentence : paragraph.getComponents()) {
-                if (containsWordOfLength(sentence, maxWordLength)) {
-                    result.add(sentence);
+                if (sentence.toString().contains(longestWord)) {
+                    newParagraph.add(sentence);
+                    hasLongestWord = true;
                 }
+            }
+            
+            if (hasLongestWord) {
+                result.add(newParagraph);
             }
         }
         
         return result;
     }
 
-    private int findMaxWordLength(TextComponent text) {
-        int maxLength = 0;
+    private String findLongestWord(TextComponent text) {
+        String longestWord = "";
         for (TextComponent paragraph : text.getComponents()) {
             for (TextComponent sentence : paragraph.getComponents()) {
                 for (TextComponent lexeme : sentence.getComponents()) {
-                    maxLength = Math.max(maxLength, lexeme.toString().length());
+                    String word = lexeme.toString();
+                    if (word.length() > longestWord.length()) {
+                        longestWord = word;
+                    }
                 }
             }
         }
-        return maxLength;
-    }
-
-    private boolean containsWordOfLength(TextComponent sentence, int length) {
-        for (TextComponent lexeme : sentence.getComponents()) {
-            if (lexeme.toString().length() == length) {
-                return true;
-            }
-        }
-        return false;
+        return longestWord;
     }
 } 
