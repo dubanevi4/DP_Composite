@@ -7,12 +7,14 @@ public class ParserChainBuilder {
         TextParser textParser = new TextParser();
         ParagraphParser paragraphParser = new ParagraphParser();
         SentenceParser sentenceParser = new SentenceParser();
+        ArithmeticExpressionParser arithmeticExpressionParser = new ArithmeticExpressionParser();
         LexemeParser lexemeParser = new LexemeParser();
         SymbolParser symbolParser = new SymbolParser();
 
         textParser.setNextParser(paragraphParser);
         paragraphParser.setNextParser(sentenceParser);
-        sentenceParser.setNextParser(lexemeParser);
+        sentenceParser.setNextParser(arithmeticExpressionParser);
+        arithmeticExpressionParser.setNextParser(lexemeParser);
         lexemeParser.setNextParser(symbolParser);
 
         return textParser;

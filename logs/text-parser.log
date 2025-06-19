@@ -1,1155 +1,416 @@
-2025-06-16 00:02:00.765 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 00:02:00.773 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 00:02:00.774 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 00:02:00.790 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 00:02:00.790 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 00:02:00.791 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 00:02:00.792 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 00:02:00.793 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 00:02:00.796 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 00:02:00.797 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 00:02:00.799 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 00:02:00.800 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 00:02:00.801 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 00:02:00.802 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 00:02:00.804 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 00:02:00.808 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 00:02:00.811 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 00:02:00.812 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 00:02:00.816 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 00:02:00.817 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 00:02:00.818 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 00:03:33.725 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 00:03:33.727 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 00:03:33.728 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 00:03:33.742 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 00:03:33.743 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 00:03:33.743 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 00:03:33.745 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 00:03:33.746 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 00:03:33.750 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 00:03:33.751 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 00:03:33.752 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 00:03:33.753 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 00:03:33.755 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 00:03:33.756 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 00:03:33.757 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 00:03:33.764 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 00:03:33.767 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 00:03:33.768 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 00:03:33.772 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 00:03:33.773 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 00:03:33.774 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 00:05:37.221 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 00:05:37.224 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 00:05:37.225 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 00:05:37.242 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 00:05:37.243 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 00:05:37.244 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 00:05:37.246 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 00:05:37.246 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 00:05:37.249 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 00:05:37.250 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 00:05:37.252 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 00:05:37.253 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 00:05:37.254 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 00:05:37.255 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 00:05:37.257 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 00:05:37.261 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 00:05:37.263 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 00:05:37.264 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 00:05:37.267 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 00:05:37.268 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 00:05:37.269 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 00:08:23.825 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 00:08:23.828 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 00:08:23.829 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 00:08:23.842 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 00:08:23.842 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 00:08:23.842 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 00:08:23.844 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 00:08:23.844 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 00:08:23.848 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 00:08:23.849 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 00:08:23.851 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 00:08:23.852 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 00:08:23.853 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 00:08:23.854 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 00:08:23.855 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 00:08:23.861 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 00:08:23.863 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 00:08:23.864 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 00:08:23.868 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 00:08:23.869 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 00:08:23.869 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 00:09:52.930 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 00:09:52.932 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 00:09:52.934 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 00:09:52.947 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 00:09:52.948 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 00:09:52.948 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 00:09:52.950 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 00:09:52.950 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 00:09:52.954 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 00:09:52.955 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 00:09:52.957 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 00:09:52.958 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 00:09:52.959 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 00:09:52.960 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 00:09:52.961 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 00:09:52.966 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 00:09:52.968 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 00:09:52.969 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 00:09:52.972 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 00:09:52.973 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 00:09:52.974 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 09:26:37.984 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 09:26:37.986 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 09:26:37.990 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 09:26:38.011 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 09:26:38.011 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 09:26:38.011 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 09:26:38.011 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 09:26:38.011 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 09:26:38.023 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 09:26:38.023 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 09:26:38.027 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 09:26:38.029 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 09:26:38.031 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 09:26:38.031 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 09:26:38.031 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 09:26:38.042 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 09:26:38.042 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 09:26:38.042 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 09:26:38.055 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 09:26:38.058 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 09:26:38.058 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 09:28:17.064 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 09:28:17.064 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 09:28:17.064 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 09:28:17.074 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 09:28:17.086 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 09:28:17.086 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 09:28:17.086 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 09:28:17.086 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 09:28:17.093 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 09:28:17.093 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 09:28:17.095 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 09:28:17.095 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 09:28:17.095 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 09:28:17.095 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 09:28:17.095 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 09:28:17.110 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 09:28:17.110 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 09:28:17.110 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 09:28:17.110 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 09:28:17.110 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 09:28:17.110 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:12:59.486 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:12:59.491 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:12:59.491 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:12:59.528 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:12:59.528 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:12:59.528 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:12:59.528 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:12:59.528 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:12:59.543 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:12:59.543 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:12:59.543 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:12:59.548 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:12:59.548 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:12:59.548 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:12:59.548 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:12:59.559 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:12:59.559 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:12:59.559 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:12:59.566 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:12:59.566 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:12:59.566 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:13:23.563 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:13:23.563 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:13:23.563 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:13:23.591 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:13:23.595 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:13:23.595 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:13:23.595 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:13:23.595 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:13:23.599 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:13:23.599 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:13:23.607 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:13:23.607 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:13:23.610 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:13:23.610 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:13:23.610 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:13:23.622 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:13:23.625 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:13:23.625 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:13:23.625 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:13:23.625 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:13:23.625 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:13:39.183 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:13:39.186 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:13:39.186 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:13:39.214 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:14:02.750 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:14:02.752 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:14:02.760 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:14:02.760 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:14:02.760 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:14:02.760 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:14:02.770 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:14:02.770 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:14:02.774 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:14:02.774 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:14:02.774 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:14:02.786 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:14:02.791 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:14:02.791 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:14:02.798 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:14:02.798 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:14:02.798 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:14:09.293 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:14:09.293 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:14:09.293 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:14:09.316 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:14:09.316 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:14:09.316 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:14:09.318 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:14:09.318 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:14:09.320 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:14:09.325 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:14:09.325 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:14:09.325 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:14:09.331 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:14:09.331 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:14:09.331 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:14:09.341 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:14:09.341 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:14:09.341 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:14:09.351 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:14:09.351 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:14:09.351 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:22:47.720 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:22:47.724 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:22:47.726 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:22:47.749 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:22:47.749 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:22:47.749 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:22:47.749 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:22:47.749 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:22:47.767 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:22:47.767 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:22:47.767 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:22:47.767 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:22:47.767 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:22:47.767 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:22:47.779 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:22:47.789 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:22:47.793 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:22:47.794 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:22:47.803 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:22:47.803 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:22:47.803 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:24:51.511 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:24:51.511 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:24:51.511 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:24:51.523 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:24:51.537 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:24:51.537 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:24:51.539 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:24:51.555 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:24:51.561 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:24:51.565 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:24:51.565 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:24:51.571 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:24:51.573 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:24:51.573 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:26:11.553 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:26:11.555 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:26:11.556 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:26:11.572 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:26:11.575 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:26:11.575 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:26:11.577 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:26:11.577 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:26:11.577 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:26:11.585 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:26:11.585 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:26:11.588 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:26:11.588 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:26:11.592 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:26:11.592 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:26:11.603 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:26:11.603 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:26:11.607 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:26:11.607 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:26:11.607 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:26:11.607 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:27:22.704 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:27:22.707 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:27:22.709 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:27:22.713 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:27:22.729 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:27:22.729 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:27:22.732 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:27:22.734 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:27:22.737 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:27:22.740 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:27:22.742 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:27:22.744 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:27:22.744 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:27:22.748 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:27:22.748 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:27:22.748 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:27:22.748 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:27:22.760 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:27:22.762 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:27:22.762 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:27:22.762 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:28:56.732 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:28:56.735 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:28:56.737 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:28:56.755 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:28:56.757 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:28:56.759 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:28:56.761 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:28:56.761 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:28:56.763 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:28:56.767 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:28:56.767 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:28:56.767 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:28:56.767 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:28:56.767 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:28:56.767 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:28:56.783 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:28:56.783 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:28:56.786 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:28:56.786 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:28:56.786 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:28:56.786 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:45:21.477 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:45:21.487 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:46:09.483 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:46:09.494 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:47:03.013 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:47:03.022 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:47:44.160 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:47:44.176 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:48:22.089 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:48:22.094 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:49:13.438 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:49:13.438 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:50:18.312 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:50:18.320 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 10:50:48.713 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:50:48.724 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:50:48.726 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:50:48.745 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 10:50:48.745 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 10:50:48.745 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 10:50:48.745 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 10:50:48.745 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 10:50:48.745 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 10:50:48.761 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 10:50:48.761 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 10:50:48.761 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 10:50:48.761 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 10:50:48.761 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 10:50:48.761 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 10:50:48.780 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 10:50:48.783 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 10:50:48.783 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 10:50:48.792 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 10:50:48.794 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 10:50:48.794 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 10:58:04.813 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 10:58:04.813 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 10:58:04.813 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 10:58:04.827 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:01:54.419 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:01:54.419 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:01:54.425 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:01:54.425 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:01:54.433 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:01:54.435 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:01:54.435 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:01:54.440 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:01:54.440 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:01:54.440 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:01:54.440 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:01:54.455 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:01:54.460 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:01:54.462 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:01:54.469 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:01:54.473 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:01:54.473 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:02:06.647 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:02:06.663 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:02:06.663 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:02:06.684 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:02:06.684 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:02:06.684 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:02:06.684 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:02:06.684 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:02:06.698 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:02:06.698 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:02:06.698 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:02:06.705 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:02:06.707 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:02:06.707 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:02:06.710 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:02:06.717 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:02:06.717 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:02:06.726 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:02:06.730 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:02:06.730 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:02:06.730 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:02:13.199 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:02:13.205 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:02:13.207 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:02:13.227 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:02:52.877 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:02:52.877 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:02:52.881 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:02:52.881 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:02:52.892 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:02:52.892 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:02:52.894 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:02:52.897 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:02:52.899 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:02:52.903 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:02:52.905 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:02:52.916 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:02:52.918 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:02:52.922 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:02:52.926 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:02:52.931 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:02:52.931 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:03:00.853 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:03:00.853 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:03:00.853 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:03:00.885 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:03:46.671 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:03:46.672 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:03:46.674 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:03:46.676 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:03:46.679 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:03:46.679 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:03:46.685 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:03:46.685 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:03:46.690 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:03:46.690 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:03:46.692 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:03:46.692 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:03:46.704 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:03:46.704 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:03:46.712 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:03:46.715 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:03:46.715 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:03:53.171 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:03:53.171 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:03:53.171 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:03:53.197 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:03:53.201 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:03:53.201 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:03:53.203 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:03:53.203 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:03:53.209 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:03:53.209 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:03:53.213 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:03:53.213 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:03:53.217 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:03:53.217 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:03:53.219 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:03:53.227 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:03:53.229 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:03:53.231 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:03:53.237 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:03:53.237 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:03:53.237 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:04:31.400 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:04:31.408 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 11:04:56.060 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:04:56.069 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 11:07:36.294 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:07:36.307 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 11:08:09.324 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:08:09.332 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 11:20:18.180 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:20:18.191 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 11:20:43.047 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:20:43.049 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:20:43.049 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:21:44.620 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:21:44.625 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:21:44.625 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:21:44.629 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:21:44.629 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:21:44.629 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:21:44.629 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:21:44.629 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:21:44.629 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:21:44.644 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:21:44.644 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:21:44.644 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:21:44.660 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:21:44.662 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:21:44.662 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:21:54.862 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:21:54.868 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:21:54.868 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:21:54.896 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:21:54.896 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:21:54.896 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:21:54.896 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:21:54.896 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:21:54.896 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:21:54.910 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:21:54.910 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:21:54.915 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:21:54.915 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:21:54.915 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:21:54.915 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:21:54.926 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:21:54.926 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:21:54.933 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:21:54.933 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:21:54.942 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:21:54.942 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:57:35.226 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:57:35.232 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:57:35.232 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:57:35.254 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:57:35.258 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:57:35.258 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:57:35.260 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:57:35.260 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:57:35.265 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:57:35.281 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:57:35.281 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:57:35.281 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:57:35.293 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:57:35.293 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:57:35.296 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:58:17.020 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:58:17.024 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:58:17.024 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 11:58:17.052 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 11:58:17.054 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 11:58:17.056 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 11:58:17.058 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 11:58:17.058 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 11:58:17.065 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 11:58:17.067 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 11:58:17.067 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 11:58:17.067 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 11:58:17.067 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 11:58:17.075 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 11:58:17.075 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 11:58:17.088 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 11:58:17.091 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 11:58:17.093 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 11:58:17.101 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 11:58:17.101 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 11:58:17.101 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 11:58:57.697 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 11:58:57.705 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 11:58:57.705 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 12:00:52.287 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 12:00:52.288 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 12:00:52.288 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 12:00:52.293 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 12:00:52.293 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 12:00:52.301 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 12:00:52.303 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 12:00:52.303 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 12:00:52.309 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 12:00:52.309 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 12:00:52.309 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 12:00:52.309 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 12:00:52.325 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 12:00:52.329 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 12:00:52.332 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 12:00:52.342 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 12:00:52.342 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 12:00:52.345 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 12:01:16.591 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 12:01:16.605 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 12:01:16.605 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 12:02:35.569 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 12:02:35.573 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 12:02:35.575 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 12:02:35.577 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 12:02:35.577 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 12:02:35.582 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 12:02:35.598 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 12:02:35.598 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 12:02:35.614 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 19:38:08.445 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 19:38:08.447 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 19:38:08.451 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 19:38:08.467 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 19:38:08.467 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 19:38:08.467 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 19:38:08.467 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 19:38:08.467 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 19:38:08.483 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 19:38:08.502 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 19:38:08.502 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 19:38:08.507 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 19:38:08.509 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 19:38:08.514 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 19:38:08.514 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:00:03.388 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:00:03.388 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:00:03.388 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:00:03.393 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:00:03.393 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:00:03.393 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:00:03.409 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:00:03.425 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:00:03.427 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:00:03.429 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:00:03.433 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:00:03.433 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:00:03.433 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:00:32.544 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:00:32.544 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:00:32.544 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:00:32.560 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:00:32.560 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:00:32.560 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:00:32.560 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:00:32.560 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:00:32.577 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:00:32.594 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:00:32.599 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:00:32.599 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:00:32.606 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:00:32.608 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:00:32.608 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:03:03.681 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:03:03.681 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:03:03.681 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:03:03.697 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:03:03.697 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:03:03.697 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:03:03.697 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:03:03.697 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:03:03.697 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:03:03.713 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:03:03.729 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:03:03.729 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:03:03.734 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:04:16.303 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:04:16.305 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:04:16.305 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:04:16.319 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:04:16.320 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:04:16.320 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:04:16.322 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:04:16.322 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:04:16.324 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:04:16.324 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:04:16.329 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:04:16.329 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:04:16.329 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:04:16.329 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:04:16.329 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:04:16.339 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:04:16.339 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:04:16.339 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:04:16.345 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:04:16.345 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:04:16.345 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:04:43.700 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:04:43.706 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:04:43.707 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:04:43.711 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:04:43.711 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:04:43.711 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:04:43.711 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:04:43.711 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:04:43.723 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:04:43.723 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:04:43.727 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:04:43.727 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:04:43.727 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:04:43.727 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:04:43.727 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:04:43.736 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:04:43.736 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:04:43.739 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:04:43.743 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:04:43.743 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:04:43.746 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:15:05.274 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:15:05.274 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:15:05.274 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:15:05.287 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:15:05.294 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:15:05.294 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:15:05.296 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:15:05.296 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:15:05.298 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:15:05.300 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:15:05.300 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:15:05.300 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:15:05.303 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:15:05.305 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:15:05.305 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:15:05.309 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:15:05.309 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:15:05.309 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:15:05.309 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:15:05.319 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:15:05.319 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:15:36.358 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:15:36.358 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:15:36.358 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:15:36.374 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:15:36.383 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:15:36.383 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:15:36.385 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:15:36.385 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:15:36.385 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:15:36.390 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:15:36.394 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:15:36.394 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:15:36.396 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:15:36.396 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:15:36.396 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:42:43.398 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:42:43.398 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:42:43.398 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:42:43.429 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:42:43.445 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:42:43.445 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:42:43.445 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:42:43.445 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:42:43.445 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:42:43.445 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:44:43.539 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:44:43.539 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 22:46:04.811 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:46:04.816 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 22:50:17.876 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:50:17.892 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 22:55:19.685 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:55:19.688 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:55:19.688 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:55:19.703 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:55:19.719 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:55:19.719 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:55:19.719 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:55:19.719 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:55:19.728 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:55:19.728 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:55:19.728 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:57:23.128 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 22:57:23.134 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 22:57:23.134 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 22:57:23.143 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 22:57:23.150 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 22:57:23.159 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 22:57:23.159 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 22:57:23.159 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:57:23.159 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 22:57:23.159 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 22:57:23.170 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 22:57:23.174 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 22:57:23.174 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 22:57:23.174 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 22:57:56.723 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 22:57:56.723 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:04:03.912 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:04:03.922 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:04:03.990 [main] INFO  lt.esdc.task2.util.Logger - Sorted 3 paragraphs by sentence count
-2025-06-16 23:04:14.954 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:04:14.969 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:04:14.972 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Sorted 3 paragraphs by sentence count
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:04:14.985 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:04:15.001 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 23:04:15.001 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:04:15.001 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:04:15.001 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:04:15.001 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:04:15.001 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 23:04:52.228 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:04:52.230 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:04:52.305 [main] INFO  lt.esdc.task2.util.Logger - Sorted 3 paragraphs by sentence count
-2025-06-16 23:08:32.243 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:08:32.243 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:08:32.243 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:08:32.255 [main] ERROR lt.esdc.task2.util.Logger - Error occurred during text processing
-java.lang.IllegalStateException: No match found
-	at java.base/java.util.regex.Matcher.checkMatch(Matcher.java:1823)
-	at java.base/java.util.regex.Matcher.end(Matcher.java:535)
-	at lt.esdc.task2.parser.impl.ParagraphParser.parse(ParagraphParser.java:29)
-	at lt.esdc.task2.parser.AbstractParser.parseNext(AbstractParser.java:15)
-	at lt.esdc.task2.parser.impl.TextParser.parse(TextParser.java:19)
-	at lt.esdc.task2.Main.main(Main.java:34)
-2025-06-16 23:09:35.453 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:09:35.453 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:09:35.453 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:09:35.469 [main] ERROR lt.esdc.task2.util.Logger - Error occurred during text processing
-java.lang.IllegalStateException: No match found
-	at java.base/java.util.regex.Matcher.checkMatch(Matcher.java:1823)
-	at java.base/java.util.regex.Matcher.end(Matcher.java:535)
-	at lt.esdc.task2.parser.impl.ParagraphParser.parse(ParagraphParser.java:29)
-	at lt.esdc.task2.parser.AbstractParser.parseNext(AbstractParser.java:15)
-	at lt.esdc.task2.parser.impl.TextParser.parse(TextParser.java:19)
-	at lt.esdc.task2.Main.main(Main.java:34)
-2025-06-16 23:11:52.307 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:11:52.315 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:12:03.974 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:12:03.991 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:12:03.992 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:12:04.004 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:12:04.006 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:12:04.015 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:12:04.015 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:12:04.015 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:12:04.015 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:12:04.022 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 23:12:04.022 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:12:04.022 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:12:04.022 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:12:04.022 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:12:04.022 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 23:13:02.940 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:13:02.948 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:15:07.066 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:15:07.082 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:18:15.530 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:18:15.530 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:19:47.293 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:19:47.309 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:19:47.390 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: paragraph.
-2025-06-16 23:19:47.390 [main] INFO  lt.esdc.task2.util.Logger - Found 3 paragraphs containing the longest word
-2025-06-16 23:21:17.299 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:21:17.299 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:21:17.376 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: paragraph.
-2025-06-16 23:21:17.376 [main] INFO  lt.esdc.task2.util.Logger - Found 3 paragraphs containing the longest word
-2025-06-16 23:21:34.871 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:21:34.887 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:21:34.887 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:21:34.887 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:21:34.902 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:21:34.903 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:21:34.903 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:21:34.903 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:21:34.905 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:21:34.905 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:21:34.905 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: functionality.
-2025-06-16 23:21:34.905 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:21:34.905 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:21:34.905 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:21:34.913 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:21:34.913 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:21:34.913 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:21:34.919 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 23:21:34.919 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:21:34.919 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:21:34.919 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:21:34.919 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:21:34.919 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 23:30:14.854 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:30:14.854 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:30:14.854 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:30:14.870 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:30:14.886 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: functionality.
-2025-06-16 23:30:14.886 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:30:14.886 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:30:14.886 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:30:14.890 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:30:14.890 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:30:14.892 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:30:14.894 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 23:30:14.894 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:30:14.894 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:30:14.902 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:30:14.902 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:30:14.902 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 23:31:43.242 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:31:43.242 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:31:43.242 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:31:43.265 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:31:43.265 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:31:43.265 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:31:43.265 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:31:43.265 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:31:43.274 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:31:43.274 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:31:43.274 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:31:43.274 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:31:43.274 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:31:43.274 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:31:43.283 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:31:43.283 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:31:43.285 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:31:43.291 [main] INFO  lt.esdc.task2.util.Logger - Found 21 unique words and 10 duplicate words
-2025-06-16 23:31:43.293 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:31:43.295 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:31:43.299 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:31:43.299 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:31:43.299 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 23:32:49.225 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:32:49.225 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:32:49.225 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:32:49.241 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:32:49.241 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:32:49.241 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:32:49.241 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:32:49.241 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:32:49.248 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:32:49.248 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:32:49.254 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:32:49.269 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:32:49.270 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:32:49.270 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
-2025-06-16 23:33:06.246 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:33:06.262 [main] INFO  lt.esdc.task2.util.Logger - Found 11 unique words and 9 duplicate words
-2025-06-16 23:33:06.341 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: paragraph.
-2025-06-16 23:33:06.341 [main] INFO  lt.esdc.task2.util.Logger - Found 3 paragraphs containing the longest word
-2025-06-16 23:34:23.505 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:34:23.521 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:34:23.623 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:34:23.623 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:35:31.103 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:35:31.103 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:35:31.212 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:35:31.212 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:36:27.262 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:36:27.263 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:36:27.365 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:36:27.365 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:37:00.964 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:37:00.979 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:37:01.075 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:37:01.075 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:38:19.236 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:38:19.236 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:38:19.331 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:38:19.331 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:38:50.050 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:38:50.055 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:38:50.148 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:38:50.148 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:39:24.648 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:39:24.648 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:39:24.754 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:39:24.754 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:40:07.292 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:40:07.296 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:40:07.394 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:40:07.394 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:40:55.931 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:40:55.942 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:40:56.033 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:40:56.033 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:41:08.761 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:41:08.768 [main] INFO  lt.esdc.task2.util.Logger - Found 9 unique words and 9 duplicate words
-2025-06-16 23:41:08.876 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:41:08.881 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:43:41.411 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:43:41.423 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:43:41.522 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:43:41.522 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:44:31.470 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:44:31.470 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:44:31.589 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:44:31.589 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:44:53.528 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:44:53.528 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:44:53.635 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:44:53.635 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:46:01.600 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:46:01.606 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:46:01.706 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:46:01.706 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:46:54.496 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:46:54.512 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:46:54.610 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:46:54.613 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:47:19.121 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:47:19.137 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:47:19.244 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:47:19.246 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:47:28.829 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:47:28.845 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:47:28.940 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:47:28.940 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:47:49.075 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:47:49.091 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:47:49.186 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:47:49.186 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:48:06.684 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:48:06.686 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:48:06.797 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:48:06.797 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:48:29.190 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:48:29.202 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:48:29.307 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:48:29.307 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:48:38.338 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:48:38.345 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:48:38.446 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:48:38.446 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:49:04.591 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:49:04.607 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:49:04.704 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:49:04.704 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:49:17.548 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:49:17.553 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:49:17.644 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:49:17.644 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:51:07.364 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:51:07.372 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:51:07.456 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:51:07.456 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:52:11.428 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:52:11.444 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:52:11.524 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:52:11.524 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:52:17.408 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:52:17.419 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:52:17.498 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:52:17.498 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:52:47.485 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
-2025-06-16 23:52:47.489 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
-2025-06-16 23:52:47.489 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
-2025-06-16 23:52:47.505 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
-2025-06-16 23:52:47.505 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
-2025-06-16 23:52:47.505 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
-2025-06-16 23:52:47.505 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
-2025-06-16 23:52:47.505 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
-2025-06-16 23:52:47.505 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
-2025-06-16 23:52:47.513 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
-2025-06-16 23:52:47.515 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
-2025-06-16 23:52:47.515 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
-2025-06-16 23:52:47.515 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
-2025-06-16 23:52:47.517 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 12:56:50.791 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 12:56:50.791 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 12:56:50.791 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 12:56:50.820 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 12:56:50.820 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 12:56:50.820 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 12:56:50.820 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 12:56:50.820 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 12:56:50.835 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 12:56:50.837 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 12:56:50.839 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: (7+5*12*(2+5-2-71))/12
+2025-06-19 12:56:50.841 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 12:56:50.841 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 12:56:50.843 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 12:56:50.845 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 12:56:50.847 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 12:56:50.849 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 12:56:50.855 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 12:56:50.857 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 12:56:50.859 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 12:56:50.865 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 12:56:50.867 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 12:56:50.867 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:03:04.556 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:03:04.556 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:03:04.556 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:03:04.588 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:03:04.588 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:03:04.588 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:03:04.588 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:03:04.588 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:03:04.602 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:03:04.604 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:03:04.607 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:03:04.620 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:03:04.622 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:03:04.624 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:03:04.626 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:03:04.626 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:03:04.626 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:04:15.728 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:04:15.732 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:04:15.732 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:04:15.753 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:04:15.753 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:04:15.753 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:04:15.759 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:04:15.761 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:04:15.761 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:04:15.761 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:04:15.761 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:04:15.769 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:04:15.784 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:04:15.784 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:04:15.784 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:04:39.486 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:04:39.486 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:04:39.486 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:04:39.526 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:04:39.526 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:04:39.526 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:04:39.533 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:04:39.533 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:04:39.539 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:04:39.549 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:04:39.556 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:04:39.556 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:04:39.561 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:04:39.561 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:04:39.561 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:06:35.148 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:06:35.148 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:06:35.148 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:06:35.148 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:06:35.148 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:06:35.148 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:06:35.163 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:06:35.181 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:06:35.183 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:06:35.183 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:06:35.185 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:06:35.185 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:06:35.187 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:06:35.187 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:06:35.187 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:06:35.187 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:06:35.187 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:06:35.195 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:06:35.195 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:06:35.195 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:06:35.195 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:06:35.195 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:06:35.206 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:06:35.208 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:06:35.211 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:06:35.211 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:06:35.211 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:06:35.211 [main] ERROR lt.esdc.task2.util.Logger - Error occurred during text processing
+java.lang.UnsupportedOperationException: Method is not supported for Symbol
+	at lt.esdc.task2.composite.impl.Symbol.getComponents(Symbol.java:55)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:55)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.execute(EvaluateArithmeticExpressions.java:21)
+	at lt.esdc.task2.Main.performTextOperations(Main.java:152)
+	at lt.esdc.task2.Main.main(Main.java:48)
+2025-06-19 13:07:10.056 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:07:10.056 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:07:10.072 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:07:10.087 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:07:10.087 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:07:10.087 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:07:10.101 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:07:10.101 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:07:10.105 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:07:10.105 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:07:10.105 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:07:10.109 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:07:10.109 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:07:10.109 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:07:10.109 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:07:10.109 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:07:10.109 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:07:10.119 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:07:10.119 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:07:10.119 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:07:10.119 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:07:10.119 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:07:10.119 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:07:10.119 [main] ERROR lt.esdc.task2.util.Logger - Error occurred during text processing
+java.lang.UnsupportedOperationException: Method is not supported for Symbol
+	at lt.esdc.task2.composite.impl.Symbol.getComponents(Symbol.java:55)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:55)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.findArithmeticExpressions(EvaluateArithmeticExpressions.java:56)
+	at lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions.execute(EvaluateArithmeticExpressions.java:21)
+	at lt.esdc.task2.Main.performTextOperations(Main.java:152)
+	at lt.esdc.task2.Main.main(Main.java:48)
+2025-06-19 13:08:05.487 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:08:05.489 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:08:05.501 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:08:05.503 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:08:05.503 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:08:05.505 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:08:05.505 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:08:05.505 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:08:05.505 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:08:05.505 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:08:05.505 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:08:05.506 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:08:05.507 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:08:05.524 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:08:05.534 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:08:05.534 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:08:05.534 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:08:05.534 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:08:05.534 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:08:05.534 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/arithmetic_expressions.txt
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Completed evaluating arithmetic expressions
+2025-06-19 13:08:05.540 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:09:18.546 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:09:18.546 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Testing parser with arithmetic expression...
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Parsed component type: TEXT
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Parsed component result: 
+
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:09:18.562 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:09:18.578 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:09:18.594 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:09:18.594 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:09:18.594 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:09:18.597 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:09:18.597 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:09:18.597 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:09:18.597 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:09:18.597 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:09:18.597 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Full text to search: It is a-329.4166666666667 established fact that a reader will be of a page when looking at its layout.
+This is the third paragraph. It has the longestlongestlongest word.
+This is the first paragraph. It has two sentences! This is a test paragraph.
+Here is the second paragraph. It contains three sentences. This is another test paragraph. The last sentence has more words than the others.
+
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - No expressions found in text, trying composite structure
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - No arithmetic expressions found
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/arithmetic_expressions.txt
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Completed evaluating arithmetic expressions
+2025-06-19 13:09:18.610 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:14:19.014 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:14:19.014 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
+2025-06-19 13:14:19.117 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:14:19.119 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:14:44.986 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:14:44.986 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:14:44.995 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:14:44.995 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:14:44.995 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:14:45.004 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:14:45.004 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:14:45.004 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:14:45.004 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:14:45.004 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:14:45.004 [main] INFO  lt.esdc.task2.util.Logger - Testing parser with arithmetic expression...
+2025-06-19 13:14:45.014 [main] INFO  lt.esdc.task2.util.Logger - Parsed component type: TEXT
+2025-06-19 13:14:45.014 [main] INFO  lt.esdc.task2.util.Logger - Parsed component result: 
+
+2025-06-19 13:14:45.014 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:14:45.014 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:14:45.014 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:14:45.028 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:14:45.028 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:14:45.030 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:14:45.030 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:14:45.030 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:14:45.033 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:14:45.045 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:14:45.045 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:14:45.045 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:14:45.053 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:14:45.055 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:14:45.055 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:14:45.055 [main] INFO  lt.esdc.task2.util.Logger - Full text to search: It is a-329.4166666666667 established fact that a reader will be of a page when looking at its layout.
+This is the third paragraph. It has the longestlongestlongest word.
+This is the first paragraph. It has two sentences! This is a test paragraph.
+Here is the second paragraph. It contains three sentences. This is another test paragraph. The last sentence has more words than the others.
+
+2025-06-19 13:14:45.055 [main] INFO  lt.esdc.task2.util.Logger - No expressions found in text, trying composite structure
+2025-06-19 13:14:45.055 [main] INFO  lt.esdc.task2.util.Logger - No arithmetic expressions found
+2025-06-19 13:14:45.059 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/arithmetic_expressions.txt
+2025-06-19 13:14:45.059 [main] INFO  lt.esdc.task2.util.Logger - Completed evaluating arithmetic expressions
+2025-06-19 13:14:45.059 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:23:56.180 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:23:56.180 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:23:56.192 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:23:56.192 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:23:56.192 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:23:56.192 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:23:56.207 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:23:56.207 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:23:56.207 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:23:56.207 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:23:56.207 [main] INFO  lt.esdc.task2.util.Logger - Testing parser with arithmetic expression...
+2025-06-19 13:23:56.207 [main] INFO  lt.esdc.task2.util.Logger - Parsed component type: TEXT
+2025-06-19 13:23:56.222 [main] INFO  lt.esdc.task2.util.Logger - Parsed component result: 
+
+2025-06-19 13:23:56.222 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:23:56.223 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:23:56.239 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:23:56.239 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:23:56.239 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:23:56.239 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:23:56.239 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:23:56.239 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:23:56.245 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:23:56.245 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:23:56.252 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:23:56.254 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Full text to search: It is a-329.4166666666667 established fact that a reader will be of a page when looking at its layout.
+This is the third paragraph. It has the longestlongestlongest word.
+This is the first paragraph. It has two sentences! This is a test paragraph.
+Here is the second paragraph. It contains three sentences. This is another test paragraph. The last sentence has more words than the others.
+
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - No expressions found in text, trying composite structure
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - No arithmetic expressions found
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/arithmetic_expressions.txt
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Completed evaluating arithmetic expressions
+2025-06-19 13:23:56.257 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:30:55.587 [main] INFO  lt.esdc.task2.util.Logger - Starting text processing application
+2025-06-19 13:30:55.587 [main] INFO  lt.esdc.task2.util.Logger - Testing arithmetic expressions...
+2025-06-19 13:30:55.602 [main] INFO  lt.esdc.task2.util.Logger - Complex expression: (7+5*12*(2+5-2-71))/12
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Calculated result: -329.4166666666667
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Expression as string: -329.4166666666667
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3) = 5.0
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Expression: (10-3) = 7.0
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Expression: (4*5) = 20.0
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Expression: (15/3) = 5.0
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Expression: (2+3*4) = 14.0
+2025-06-19 13:30:55.611 [main] INFO  lt.esdc.task2.util.Logger - Testing parser with arithmetic expression...
+2025-06-19 13:30:55.618 [main] INFO  lt.esdc.task2.util.Logger - Parsed component type: TEXT
+2025-06-19 13:30:55.618 [main] INFO  lt.esdc.task2.util.Logger - Parsed component result: 
+
+2025-06-19 13:30:55.618 [main] INFO  lt.esdc.task2.util.Logger - Arithmetic expression testing completed successfully
+2025-06-19 13:30:55.618 [main] INFO  lt.esdc.task2.util.Logger - Reading text from file: src/main/resources/input.txt
+2025-06-19 13:30:55.618 [main] INFO  lt.esdc.task2.util.Logger - Successfully read input text from file
+2025-06-19 13:30:55.634 [main] INFO  lt.esdc.task2.util.Logger - Successfully parsed text into composite structure
+2025-06-19 13:30:55.634 [main] INFO  lt.esdc.task2.util.Logger - Successfully recovered text from composite structure
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/recovered.txt
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Successfully wrote recovered text to file
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Starting text operations
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/sorted_paragraphs.txt
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Completed sorting paragraphs by sentence count
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/longest_word_sentences.txt
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Completed finding sentences with longest word
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/short_removed.txt
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Completed removing short sentences
+2025-06-19 13:30:55.636 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:30:55.650 [main] INFO  lt.esdc.task2.util.Logger - Found 30 unique words and 9 duplicate words
+2025-06-19 13:30:55.650 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/duplicate_words.txt
+2025-06-19 13:30:55.650 [main] INFO  lt.esdc.task2.util.Logger - Completed counting duplicate words
+2025-06-19 13:30:55.650 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/vowel_consonant_count.txt
+2025-06-19 13:30:55.650 [main] INFO  lt.esdc.task2.util.Logger - Completed counting vowels and consonants
+2025-06-19 13:30:55.663 [main] INFO  lt.esdc.task2.util.Logger - Starting arithmetic expression evaluation
+2025-06-19 13:30:55.663 [main] INFO  lt.esdc.task2.util.Logger - Full text to search: It is a-329.4166666666667 established fact that a reader will be of a page when looking at its layout.
+This is the third paragraph. It has the longestlongestlongest word.
+This is the first paragraph. It has two sentences! This is a test paragraph.
+Here is the second paragraph. It contains three sentences. This is another test paragraph. The last sentence has more words than the others.
+
+2025-06-19 13:30:55.663 [main] INFO  lt.esdc.task2.util.Logger - No expressions found in text, trying composite structure
+2025-06-19 13:30:55.663 [main] INFO  lt.esdc.task2.util.Logger - No arithmetic expressions found
+2025-06-19 13:30:55.663 [main] INFO  lt.esdc.task2.util.Logger - Writing text to file: output/arithmetic_expressions.txt
+2025-06-19 13:30:55.666 [main] INFO  lt.esdc.task2.util.Logger - Completed evaluating arithmetic expressions
+2025-06-19 13:30:55.666 [main] INFO  lt.esdc.task2.util.Logger - Text processing completed successfully
+2025-06-19 13:31:14.414 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:31:14.418 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
+2025-06-19 13:31:14.540 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:31:14.540 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word
+2025-06-19 13:35:28.175 [main] INFO  lt.esdc.task2.util.Logger - Starting duplicate words count operation
+2025-06-19 13:35:28.182 [main] INFO  lt.esdc.task2.util.Logger - Found 17 unique words and 8 duplicate words
+2025-06-19 13:35:28.283 [main] INFO  lt.esdc.task2.util.Logger - Found longest word: longestlongestlongest
+2025-06-19 13:35:28.283 [main] INFO  lt.esdc.task2.util.Logger - Found 1 paragraphs containing the longest word

@@ -1,3 +1,6 @@
+Sentence: It is a-329.4166666666667 established fact that a reader will be of a page when looking at its layout.
+Vowels: 29, Consonants: 37
+
 Sentence: This is the third paragraph.
 Vowels: 7, Consonants: 16
 

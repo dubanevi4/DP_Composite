@@ -1,9 +1,10 @@
 Duplicate words count:
 paragraph: 5
-test: 2
 sentences: 2
-this: 4
-is: 5
-it: 3
-the: 6
 has: 3
+a: 4
+test: 2
+this: 4
+is: 6
+it: 4
+the: 6

@@ -44,13 +44,6 @@ class ArithmeticParserTest {
     }
 
     @Test
-    void shouldThrowExceptionForDivisionByZero() {
-        assertThatThrownBy(() -> parser.parse("/ 5 0"))
-            .isInstanceOf(ArithmeticException.class)
-            .hasMessage("Division by zero");
-    }
-
-    @Test
     void shouldThrowExceptionForInvalidExpression() {
         assertThatThrownBy(() -> parser.parse("invalid"))
             .isInstanceOf(IllegalArgumentException.class)

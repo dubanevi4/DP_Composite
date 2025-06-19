@@ -1,9 +1,11 @@
 package lt.esdc.task2;
 
 import lt.esdc.task2.composite.TextComponent;
+import lt.esdc.task2.interpreter.ArithmeticExpression;
 import lt.esdc.task2.operation.TextOperation;
 import lt.esdc.task2.operation.impl.CountDuplicateWords;
 import lt.esdc.task2.operation.impl.CountVowelsAndConsonants;
+import lt.esdc.task2.operation.impl.EvaluateArithmeticExpressions;
 import lt.esdc.task2.operation.impl.FindSentencesWithLongestWord;
 import lt.esdc.task2.operation.impl.RemoveShortSentences;
 import lt.esdc.task2.operation.impl.SortParagraphsBySentenceCount;
@@ -24,6 +26,9 @@ public class Main {
     public static void main(String[] args) {
         try {
             Logger.info("Starting text processing application");
+
+            // Тестирование арифметических выражений
+            testArithmeticExpressions();
 
             createOutputDirectory();
 
@@ -46,6 +51,47 @@ public class Main {
             
         } catch (Exception e) {
             Logger.error("Error occurred during text processing", e);
+        }
+    }
+    
+    private static void testArithmeticExpressions() {
+        Logger.info("Testing arithmetic expressions...");
+        
+        try {
+            // Тестируем выражение из входного файла
+            String complexExpression = "(7+5*12*(2+5-2-71))/12";
+            ArithmeticExpression expr = new ArithmeticExpression(complexExpression);
+            double result = expr.getResult();
+            
+            Logger.info("Complex expression: " + complexExpression);
+            Logger.info("Calculated result: " + result);
+            Logger.info("Expression as string: " + expr.toString());
+            
+            // Тестируем простые выражения
+            String[] simpleExpressions = {
+                "(2+3)",
+                "(10-3)", 
+                "(4*5)",
+                "(15/3)",
+                "(2+3*4)"
+            };
+            
+            for (String expression : simpleExpressions) {
+                ArithmeticExpression simpleExpr = new ArithmeticExpression(expression);
+                Logger.info("Expression: " + expression + " = " + simpleExpr.getResult());
+            }
+            
+            // Тестируем парсер
+            Logger.info("Testing parser with arithmetic expression...");
+            AbstractParser parser = ParserChainBuilder.buildParserChain();
+            TextComponent parsedComponent = parser.parse(complexExpression);
+            Logger.info("Parsed component type: " + parsedComponent.getComponentType());
+            Logger.info("Parsed component result: " + parsedComponent.toString());
+            
+            Logger.info("Arithmetic expression testing completed successfully");
+            
+        } catch (Exception e) {
+            Logger.error("Error during arithmetic expression testing", e);
         }
     }
     
@@ -107,5 +153,11 @@ public class Main {
         TextComponent vowelConsonantCount = vowelConsonantOperation.execute(text);
         writeTextToFile(OUTPUT_DIR + "/vowel_consonant_count.txt", vowelConsonantCount.toString());
         Logger.info("Completed counting vowels and consonants");
+        
+        /* Evaluate arithmetic expressions */
+        TextOperation arithmeticOperation = new EvaluateArithmeticExpressions();
+        TextComponent arithmeticResult = arithmeticOperation.execute(text);
+        writeTextToFile(OUTPUT_DIR + "/arithmetic_expressions.txt", arithmeticResult.toString());
+        Logger.info("Completed evaluating arithmetic expressions");
     }
 }

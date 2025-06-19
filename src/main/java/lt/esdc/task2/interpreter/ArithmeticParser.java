@@ -8,9 +8,13 @@ public class ArithmeticParser {
     private static final Pattern NUMBER_PATTERN = Pattern.compile("\\d+(\\.\\d+)?");
     private static final Pattern OPERATOR_PATTERN = Pattern.compile("[+\\-*/]");
 
+    private static final String UNEXPECTED_END_MESSAGE = "Unexpected end of expression";
+    private static final String INVALID_TOKEN_MESSAGE = "Invalid token: ";
+    private static final String WHITESPACE_DELIMITER = "\\s+";
+
     public Expression parse(String expression) {
         Deque<String> tokens = new ArrayDeque<>();
-        for (String token : expression.split("\\s+")) {
+        for (String token : expression.split(WHITESPACE_DELIMITER)) {
             tokens.addLast(token);
         }
         return parseExpression(tokens);
@@ -18,7 +22,7 @@ public class ArithmeticParser {
 
     private Expression parseExpression(Deque<String> tokens) {
         if (tokens.isEmpty()) {
-            throw new IllegalArgumentException("Unexpected end of expression");
+            throw new IllegalArgumentException(UNEXPECTED_END_MESSAGE);
         }
 
         String token = tokens.removeFirst();
@@ -32,6 +36,6 @@ public class ArithmeticParser {
             return new BinaryExpression(left, right, ArithmeticOperator.fromSymbol(token).getOperation());
         }
 
-        throw new IllegalArgumentException("Invalid token: " + token);
+        throw new IllegalArgumentException(INVALID_TOKEN_MESSAGE + token);
     }
 } 
